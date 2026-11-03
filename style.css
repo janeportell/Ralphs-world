@@ -1,0 +1,186 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #fff8ed;
+	color: #354b35;
+	font-family: Georgia, serif;
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	padding: 30px;
+	Background-color: #e6eddc;
+}
+
+.intro {
+	padding:30px;
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	padding: 20px;
+	background-color: #e6eddc;
+}
+
+#sitetitle {
+	font-size: 48px;
+}
+
+	img {
+    	width: 100%;
+    	height: auto;
+    	display: block;
+    	margin: 20px auto;
+	}
+
+button {
+	Background-color: #354b35;
+	color: #fff8ed;
+	padding: 12px 20px;
+	border: none;
+	font-family: Georgia, serif;
+	font-size: 16px;
+	cursor: pointer;
+
+		}
+
+Button:hover {
+	background-color: #526b46;
+}
+
+@media (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+
+    .intro {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    #sitetitle {
+        font-size: 32px;
+    }
+}
+
+a {
+    color: #354b35;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #526b46;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0;
+}
+
+.ralphdetails {
+    background-color: #e6eddc;
+    padding: 25px;
+}
+
+.ralph-profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ralph-profile div {
+    width: 40%;
+    margin: 20px;
+}
+
+.ralph-profile p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .ralph-profile {
+        flex-direction: column;
+    }
+
+    .ralph-profile div {
+        width: 90%;
+        margin: 10px 5%;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+}
+
+.navbar a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    color: #354b35;
+}
+
+.navbar a:hover {
+    background-color: #354b35;
+    color: #fff8ed;
+}
+
+.favoriteactivity {
+    background-color: #e6eddc;
+    padding: 25px;
+    margin: 20px 2%;
+    width: 45%;
+    max-width: 700px;
+}
+
+.favoriteactivity h2 {
+    margin-bottom: 20px;
+}
+
+.favoriteactivity p {
+    font-size: 18px;
+    font-family: Ariel, sans-serif;
+}
+.favoriteactivity img {
+    width: 50%;
+    height: auto;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .activities {
+        flex-direction: column;
+    }
+
+    .favoriteactivity {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
+
+.navbar .currentpage {
+    background-color: #354b35;
+    color: #fff8ed;
+}
